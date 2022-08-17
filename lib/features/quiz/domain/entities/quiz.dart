@@ -2,7 +2,7 @@ class Quiz {
   final String category;
   final String id;
   final String correctAnswer;
-  final List<String> incorrectAnswer;
+  final List<dynamic> incorrectAnswer;
   final String question;
   Quiz({
     required this.category,
